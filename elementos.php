@@ -28,6 +28,7 @@
 
   $final='
 <!-- Footer -->
+<div class="jumbotron jumbotron-fluid">
 <footer class="page-footer font-small mdb-color lighten-3 pt-4">
 
     <!-- Footer Links -->
@@ -42,8 +43,7 @@
          <!-- Content -->
            <h5 class="font-weight-bold text-uppercase mb-4">Acerca de Nosotros</h5>
            <p>Feroleto y Faga nació hace mas de 50 años como un emprendimiento familiar.</p>
-           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate esse
-           quasi, veritatis totam voluptas nostrum.</p>
+           <p>La gestión integral de instalaciones internas es una de nuestras fortalezas. El noble resultado de nuestros trabajos permitió que nos convirtiéramos en contratistas especializados en instalaciones sanitarias, gas, calefacción y servicios contra incendios.</p>
 
         </div>
         <!-- Grid column -->
@@ -64,17 +64,17 @@
             </li>
             <li>
               <p>
-                <a href="#!">ABOUT US</a>
+                <a href="#!">Algo</a>
               </p>
             </li>
             <li>
               <p>
-                <a href="#!">BLOG</a>
+                <a href="#!">Algo</a>
               </p>
             </li>
             <li>
               <p>
-                <a href="#!">AWARDS</a>
+                <a href="#!">AAlgo</a>
               </p>
             </li>
           </ul>
@@ -127,6 +127,7 @@
     <!-- Copyright -->
 
   </footer>
+  </div>
   <!-- Footer -->
 
   ';
@@ -141,24 +142,24 @@
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://wallpaper-gallery.net/images/sofia-carson-wallpaper/sofia-carson-wallpaper-5.jpg" alt="Los Angeles" width="900" height="300">
+      <img src="http://getwallpapers.com/wallpaper/full/f/9/b/1112222-kevin-durant-wallpaper-hd-2018-1920x1080-for-tablet.jpg" width="500" height="300">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
+        <h3>Bestia</h3>
+        <p>Un animal</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="https://wallpapersite.com/images/wallpapers/dove-cameron-3600x2025-hd-4k-11977.jpg" alt="Chicago" width="900" height="300">
+      <img src="http://uhd-wallpapers.net/1080p/lionel-messi-dribbling_969.jpeg" alt="Chicago" width="500" height="300">
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        <h3>Messi</h3>
+        <p>Traeme la copa</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="https://images3.alphacoders.com/775/thumb-1920-775680.jpg" alt="New York" width="900" height="300">
+      <img src="https://images3.alphacoders.com/775/thumb-1920-775680.jpg" alt="New York" width="500" height="300">
       <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
+        <h3>Orange</h3>
+        <p>Copia barata de Hogwarts</p>
       </div>   
     </div>
   </div>
