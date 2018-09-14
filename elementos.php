@@ -3,10 +3,11 @@
 	$menu='
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Brand/logo -->
-  <a class="navbar-brand" href="">FEROLETO HNOS & FAGA</a>
+  <a class="navbar-brand" href="">FEROLETO HNOS & FAGA&nbsp;</a><i id="barrita" style="color:white;" class="fas fa-bars"></i>
+
   
   <!-- Links -->
-  <ul class="navbar-nav">
+  <ul class="navbar-nav" id="nav">
     <li class="nav-item">
       <a class="nav-link" href="index.php">Home</a>
     </li>
@@ -156,7 +157,7 @@
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="https://images3.alphacoders.com/775/thumb-1920-775680.jpg" alt="New York" width="500" height="300">
+      <img src="https://images3.alphacoders.com/775/thumb-1920-775680.jpg"  width="500" height="300">
       <div class="carousel-caption">
         <h3>Orange</h3>
         <p>Copia barata de Hogwarts</p>
@@ -170,6 +171,21 @@
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
-  '
+  ';
 
+  $ubicacion='
+  <div class="container">
+  <h2>Card Image</h2>
+  <p>Image at the top (card-img-top):</p>
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div>
+  </div>
+
+   
+  '
  ?>
