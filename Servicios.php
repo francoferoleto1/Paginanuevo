@@ -53,3 +53,33 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </html>
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="">FEROLETO HNOS & FAGA&nbsp;</a><i id="barrita" style="color:white;" class="fas fa-bars"></i>
+
+  
+  <!-- Links -->
+  <ul class="navbar-nav" id="nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.php">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Servicios.php">Nuestros Servicios</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Obras.php">Obras</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Referencias.php">Referencias</a>
+    </li>
+  </ul>
+</nav>

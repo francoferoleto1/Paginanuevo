@@ -1,28 +1,32 @@
 <?php 
 
 	$menu='
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <!-- Brand/logo -->
-  <a class="navbar-brand" href="">FEROLETO HNOS & FAGA&nbsp;</a><i id="barrita" style="color:white;" class="fas fa-bars"></i>
 
-  
-  <!-- Links -->
-  <ul class="navbar-nav" id="nav">
-    <li class="nav-item">
-      <a class="nav-link" href="index.php">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Servicios.php">Nuestros Servicios</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Obras.php">Obras</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="Referencias.php">Referencias</a>
-    </li>
-  </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.php">FEROLETO HNOS & FAGA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Obras.php">Obras</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Servicios.php">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Referencias.php">Referencias</a>
+      </li>
+    
+      </div>
+    </ul>
+  </div>
 </nav>
-
 
 ';
 
