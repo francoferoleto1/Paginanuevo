@@ -14,20 +14,44 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
-
+<style>
+    .imagenObras{
+    background-image: url('image/obrero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 45vh;
+  }
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+    .alb{
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
 
 <body>
 
 <?php echo $menu ?> 
  	
-<main role="main">
 
-      <section class="jumbotron text-center">
-        <div class="foo">
-          <h1 class="jumbotron-heading">Obras</h1>
-          <p class="lead text-muted">En este apartado podras ver algunas de nuestras obras</p>
+<div class="container-fluid">
+        <div class="row">
+          <div class="col imagenObras">
+            <div class="centered">
+            <h1 style="color: white">Obras</h1>
+            <p style="color: white">En este apartado podras ver algunas de nuestras obras</p>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,30 +76,15 @@
   </div>
 </nav>
 
-      <div class="album py-5 bg-light">
+      <div class="album py-5 bg-light sust">
         <div class="container">
 
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="http://www.arcondebuenosaires.com.ar/madero-faro-999.jpg" alt="Card image cap">
+                <div class="alb" style="background-image: url('http://www.arquimaster.com.ar/web/wp-content/uploads/2013/12/finochietto1.jpg');"></div>                
                 <div class="card-body">
-                  <p class="card-text">Sustentables</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="https://imgar.zonapropcdn.com/avisos/1/00/42/83/79/35/1200x1200/1653776892.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">Madero Center "La Gran Manzana"</p>
+                  <p class="card-text" style="color: green;">Sanatorio Finochietto</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
@@ -85,23 +94,39 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+           <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="https://imgar.zonapropcdn.com/avisos/1/00/42/83/79/35/1200x1200/1653776892.jpg" alt="Card image cap">
+                <div class="alb" style="background-image: url('http://www.nuevomadero.com/upload/image/600x6001269911331_419_Sh2.jpg');"></div>                
                 <div class="card-body">
-                  <p class="card-text">Crucero I y II</p>
+                  <p class="card-text" style="color: green;">Mall Dique III</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
                       <button type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
                     </div>
-                    
                   </div>
                 </div>
               </div>
             </div>
-
             <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <div class="alb" style="background-image: url('image/osde.jpg');"></div>
+                 <div class="card-body">
+                  <p class="card-text" style="color: green;">Osde “Oficinas Centrales”</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Maps</button>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+           <!--  <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
                 <img class="card-img-top" src="http://www.nuevomadero.com/upload/image/600x6001269911331_419_Sh2.jpg" alt="Card image cap">
                 <div class="card-body">
@@ -193,9 +218,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-    </main>
+
 
 
 <?php echo $final ?>

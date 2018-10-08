@@ -98,8 +98,8 @@
            <div class="col-xs-6 col-sm-3 col-md-2 format" style="background-image: url('http://www.ard-sa.com.ar.php56-5.ord1-1.websitetestlink.com/wp-content/uploads/2017/02/logo-ard-04.png');"></div></a>
            <a href="http://eqa.com.ar/" style="padding: 1em;">
            <div class="col-xs-6 col-sm-3 col-md-2 format" style="background-image: url('http://eqa.com.ar/wp-content/uploads/2016/01/logoEQA-e1454089143550.png.pagespeed.ce.HFivft0U3j.png');"></div></a>
-           <a href="http://eqa.com.ar/" style="padding: 1em;">
-           <div class="col-xs-6 col-sm-3 col-md-2 format" style="background-image: url('http://eqa.com.ar/wp-content/uploads/2016/01/logoEQA-e1454089143550.png.pagespeed.ce.HFivft0U3j.png');"></div></a>
+           <a href="" style="padding: 1em;">
+           <div class="col-xs-6 col-sm-3 col-md-2 format" style="background-image: url('');"></div></a>
            </div>
 </div>
 
@@ -133,7 +133,7 @@
 		    </ul>
 		</div>
 		<div class="col-md-3">
-		    <div class="small-space-list">
+		    <ul class="small-space-list">
 		        <li>Churba Emprendimientos</li>
 		        <li>Circulo Inmobiliario</li>
 		        <li>Clínica Finochietto</li>
@@ -145,7 +145,7 @@
 		        <li>FLENI</li>
 		        <li>Francchino</li>
 		        <li>Fravega</li>
-		    </div>
+		    </ul>
 	   </div> 
 		<div class="col-md-3">
 		    <ul class="small-space-list">
